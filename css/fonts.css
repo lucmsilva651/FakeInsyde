@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Insyde";
+  src: url("../fonts/insydeh2o-setup-utility.otf.woff2") format("woff2");
+}
+
+* {
+  font-family: "Insyde", monospace;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+  image-rendering: pixelated;
+}

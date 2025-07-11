@@ -6,11 +6,6 @@
 * {
   box-sizing: border-box;
   user-select: none;
-  font-family: "Insyde", monospace;
-  -webkit-font-smoothing: none;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: geometricPrecision;
-  image-rendering: pixelated;
   margin: 0;
   padding: 0;
 }

@@ -1,10 +1,12 @@
-function applyScale() {
-  const wrapper = document.getElementById("wrapper");
-  const scaleX = window.innerWidth / 1366;
-  const scaleY = window.innerHeight / 768;
-  const scale = Math.min(scaleX, scaleY, 1);
-  wrapper.style.transform = `scale(${scale})`;
+import {element} from "./utils/element.js";
+
+function base64UrlEncode(str) {
+  return btoa(unescape(encodeURIComponent(str)))
+    .replace(/\+/g, '-')
+    .replace(/\//g, '_')
+    .replace(/=+$/, '');
 }
 
-window.addEventListener("resize", applyScale);
-window.addEventListener("load", applyScale);
+element("sendOptions").addEventListener("click", () => {
+  window.location.href = `/firmware/?q=${base64UrlEncode(element("firmwareOptions").value)}`;
+});
