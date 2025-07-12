@@ -1,4 +1,4 @@
-import {element} from "./utils/element.js";
+import { element } from "./utils/element.js";
 
 function base64UrlEncode(str) {
   return btoa(unescape(encodeURIComponent(str)))

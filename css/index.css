@@ -1,104 +1,21 @@
-@font-face {
-  font-family: "Insyde";
-  src: url("../fonts/insydeh2o-setup-utility.otf.woff2") format("woff2");
-}
-
 * {
-  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   user-select: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background: #000;
-  height: 100%;
-  overflow: hidden;
+textarea {
+  font-family: monospace;
+  width: 720px;
+  height: 250px;
+  resize: none;
+}
+
+.container {
   display: flex;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-}
-
-#wrapper {
-  min-width: 1366px;
-  min-height: 768px;
-  width: 1366px;
-  height: 768px;
-  display: flex;
   flex-direction: column;
-  background: #9E9E9E;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-}
-
-.branding {
-  padding: 4px 25px 1px 0;
-  background-color: #006F91;
-}
-
-.branding :first-child {
-  text-align: right;
-}
-
-.insyde-branding {
-  position: absolute;
-  top: 1.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.toolbar {
-  display: flex;
-  gap: 25px;
-  background-color: #00007A;
-  padding-left: 25px;
-  color: #9E9E9E;
-}
-
-.toolbar * {
-  padding: 4px 0 1px 1px;
-}
-
-.toolbar :first-child {
-  background-color: #9E9E9E;
-  color: #000078;
-}
-
-.options {
-  margin: 10px 4px;
-  padding: 20px 5px;
-  flex-grow: 2;
-  border: 2px solid #00007A;
-  border-left-width: 3px;
-  border-right-width: 3px;
-  color: #00007A;
-}
-
-.help {
-  background-color: #006F91;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 4px 2px;
-}
-
-.help > p {
-  flex: 0 0 25%;
-  display: flex;
-  align-items: center;
   gap: 12px;
-  white-space: nowrap;
-  margin: 2px 0;
-}
-
-.help :nth-child(1) .white,
-.help :nth-child(4) .white,
-.help :nth-child(5) .white,
-.help :nth-child(8) .white {
-  min-width: 36px;
-}
-
-.white {
-  color: white;
 }

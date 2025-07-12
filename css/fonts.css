@@ -10,3 +10,17 @@
   text-rendering: geometricPrecision;
   image-rendering: pixelated;
 }
+
+.blue,
+.active {
+  color: #000078;
+}
+
+.gray,
+.disabled {
+  color: #353535;
+}
+
+.white {
+  color: white;
+}
