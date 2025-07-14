@@ -10,10 +10,6 @@
   padding: 0;
 }
 
-html {
-  filter: brightness(120%) saturate(1.2);
-}
-
 html,
 body {
   margin: 0;
@@ -33,13 +29,13 @@ body {
   height: 768px;
   display: flex;
   flex-direction: column;
-  background: #9E9E9E;
+  background: #bebebe;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 .branding {
   padding: 4px 25px 1px 0;
-  background-color: #006F91;
+  background-color: #008abb;
 }
 
 .branding :first-child {
@@ -56,9 +52,9 @@ body {
 .toolbar {
   display: flex;
   gap: 25px;
-  background-color: #00007A;
+  background-color: #0000ae;
   padding-left: 25px;
-  color: #9E9E9E;
+  color: #bebebe;
 }
 
 .toolbar * {
@@ -66,20 +62,20 @@ body {
 }
 
 .toolbar :nth-child(3) {
-  background-color: #9E9E9E;
+  background-color: #bebebe;
 }
 
 .options {
   margin: 10px 4px;
   padding: 20px 5px;
   flex-grow: 2;
-  border: 2px solid #00007A;
+  border: 2px solid #0000ae;
   border-left-width: 3px;
   border-right-width: 3px;
 }
 
 .help {
-  background-color: #006F91;
+  background-color: #006f91;
   display: flex;
   flex-wrap: wrap;
   padding: 4px 2px;
