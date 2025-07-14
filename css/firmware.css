@@ -25,6 +25,7 @@ body {
 #wrapper {
   min-width: 1366px;
   min-height: 768px;
+  cursor: none;
   width: 1366px;
   height: 768px;
   display: flex;
